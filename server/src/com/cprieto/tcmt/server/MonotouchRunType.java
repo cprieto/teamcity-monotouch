@@ -47,7 +47,7 @@ public class MonotouchRunType extends RunType {
     @Override
     public Map<String, String> getDefaultRunnerProperties() {
         Map<String, String> properties = new HashMap<String, String>();
-        properties.put(PropertyNames.MONOTOUCH_PATH, "/Applications/Xamarin Studio.app/Contents/MacOS/mdtool");
+        properties.put(PropertyNames.MONOTOUCH_PATH, "/Applications/Xamarin Studio.app");
 
         return properties;
     }
