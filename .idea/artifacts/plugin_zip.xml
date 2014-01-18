@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="plugin:zip">
+  <artifact type="jar" build-on-make="true" name="plugin:zip">
     <output-path>$PROJECT_DIR$/out/artifacts/plugin_zip</output-path>
     <root id="archive" name="monotouch-runner.zip">
       <element id="directory" name="agent">
@@ -8,6 +8,7 @@
       <element id="directory" name="server">
         <element id="archive" name="monotouch-server.jar">
           <element id="module-output" name="server" />
+          <element id="javaee-facet-resources" facet="server/web/Web" />
         </element>
         <element id="artifact" artifact-name="common:jar" />
       </element>

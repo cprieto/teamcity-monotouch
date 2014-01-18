@@ -21,6 +21,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" scope="TEST" name="com.google.dexmaker:dexmaker-mockito:1.0" level="project" />
+    <orderEntry type="library" name="Teamcity Spring libs" level="project" />
   </component>
 </module>
 
