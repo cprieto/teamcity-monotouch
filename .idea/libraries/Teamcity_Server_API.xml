@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Teamcity Server API">
+    <CLASSES>
+      <root url="jar://$TeamCityDistribution$/devPackage/server-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
