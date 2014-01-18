@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="agent:zip">
     <output-path>$PROJECT_DIR$/out/artifacts/agent_zip</output-path>
-    <root id="archive" name="agent.zip">
+    <root id="archive" name="monotouch-agent.zip">
       <element id="directory" name="lib">
         <element id="archive" name="agent.jar">
           <element id="module-output" name="agent" />
