@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="plugin:zip">
+    <output-path>$PROJECT_DIR$/out/artifacts/plugin_zip</output-path>
+    <root id="archive" name="plugin.zip">
+      <element id="directory" name="agent">
+        <element id="artifact" artifact-name="agent:zip" />
+      </element>
+      <element id="directory" name="server">
+        <element id="archive" name="monotouch-server.jar">
+          <element id="module-output" name="server" />
+        </element>
+        <element id="artifact" artifact-name="common:jar" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/server/teamcity-plugin.xml" />
+    </root>
+  </artifact>
+</component>

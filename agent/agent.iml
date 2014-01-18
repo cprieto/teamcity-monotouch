@@ -11,7 +11,7 @@
     <orderEntry type="library" name="Teamcity Agent API" level="project" />
     <orderEntry type="library" name="Teamcity Common API" level="project" />
     <orderEntry type="module" module-name="common" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" scope="TEST">
       <library>
         <CLASSES>
           <root url="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/" />
@@ -20,7 +20,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="com.google.dexmaker:dexmaker-mockito:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="com.google.dexmaker:dexmaker-mockito:1.0" level="project" />
   </component>
 </module>
 
