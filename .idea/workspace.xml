@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42d34308-67bf-4fba-bdde-c93a8a0f0e34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java" afterPath="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java" afterPath="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/resources/editParams.jsp" afterPath="$PROJECT_DIR$/server/resources/editParams.jsp" />
     </list>
     <ignored path="teamcity-mt.iws" />
@@ -76,16 +75,25 @@
       <file leaf-file-name="editParams.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/resources/editParams.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="891" selection-end="891" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="660">
+            <state line="23" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MonotouchPropertiesProcessor.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MonotouchRunType.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="32" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="705">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonotouchPropertiesProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.4680851" vertical-offset="0" max-vertical-offset="705">
+            <state line="16" column="60" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#506#523#0" expanded="true" />
@@ -128,9 +136,9 @@
         <option value="$PROJECT_DIR$/agent/tests/com/cprieto/tcmt/agent/MonotouchRunnerInfoTest.java" />
         <option value="$PROJECT_DIR$/server/src/META-INF/build-server-plugin.xml" />
         <option value="$PROJECT_DIR$/common/src/com/cprieto/tcmt/PropertyNames.java" />
-        <option value="$PROJECT_DIR$/server/resources/editParams.jsp" />
         <option value="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java" />
         <option value="$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java" />
+        <option value="$PROJECT_DIR$/server/resources/editParams.jsp" />
       </list>
     </option>
   </component>
@@ -607,7 +615,7 @@
       <changelist id="42d34308-67bf-4fba-bdde-c93a8a0f0e34" name="Default" comment="" />
       <created>1389928381678</created>
       <updated>1389928381678</updated>
-      <workItem from="1389939840687" duration="18106000" />
+      <workItem from="1389939840687" duration="19679000" />
     </task>
     <task id="LOCAL-00001" summary="Added constants for plugin and plugin configuration file">
       <created>1389940667915</created>
@@ -629,7 +637,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18106000" />
+    <option name="totallyTimeSpent" value="19679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="802" extended-state="6" />
@@ -770,19 +778,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+            <element signature="e#351#352#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java">
+    <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="86" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.7659575" vertical-offset="105" max-vertical-offset="810">
+        <state line="16" column="60" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1274#1290#0" expanded="true" />
+            <element signature="e#506#523#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,18 +804,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/resources/editParams.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="891" selection-end="891" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="660">
+        <state line="23" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchPropertiesProcessor.java">
+    <entry file="file://$PROJECT_DIR$/server/src/com/cprieto/tcmt/server/MonotouchRunType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="1025" selection-end="1025" vertical-scroll-proportion="0.4680851" vertical-offset="0" max-vertical-offset="705">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#506#523#0" expanded="true" />
-          </folding>
+        <state line="38" column="32" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.5319149" vertical-offset="0" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>

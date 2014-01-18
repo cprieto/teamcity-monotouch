@@ -14,11 +14,15 @@ public class MonotouchPropertiesProcessor implements PropertiesProcessor {
         Vector<InvalidProperty> invalidProperties = new Vector<InvalidProperty>();
         if (isEmpty(stringStringMap, PropertyNames.SOLUTION_NAME))
             invalidProperties.add(new InvalidProperty(PropertyNames.SOLUTION_NAME,
-                    "You need to specify the name of the solution file"));
+                    "Path to solution file must be specified"));
 
         if (isEmpty(stringStringMap, PropertyNames.MONOTOUCH_PATH))
             invalidProperties.add(new InvalidProperty(PropertyNames.MONOTOUCH_PATH,
                     "Without Xamarin Studio you cannot compile Monotouch projects"));
+
+        if (isEmpty(stringStringMap, PropertyNames.CONFIGURATION))
+            invalidProperties.add(new InvalidProperty(PropertyNames.CONFIGURATION,
+                    "Which configuration do you want to build?"));
 
         return invalidProperties;
     }
