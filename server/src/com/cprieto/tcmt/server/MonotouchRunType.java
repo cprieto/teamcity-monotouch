@@ -1,10 +1,12 @@
 package com.cprieto.tcmt.server;
 
 import com.cprieto.tcmt.PluginConstants;
+import com.cprieto.tcmt.PropertyNames;
 import jetbrains.buildServer.serverSide.PropertiesProcessor;
 import jetbrains.buildServer.serverSide.RunType;
 import jetbrains.buildServer.serverSide.RunTypeRegistry;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class MonotouchRunType extends RunType {
@@ -29,7 +31,7 @@ public class MonotouchRunType extends RunType {
 
     @Override
     public PropertiesProcessor getRunnerPropertiesProcessor() {
-        return null;
+        return new MonotouchPropertiesProcessor();
     }
 
     @Override
@@ -44,6 +46,9 @@ public class MonotouchRunType extends RunType {
 
     @Override
     public Map<String, String> getDefaultRunnerProperties() {
-        return null;
+        Map<String, String> properties = new HashMap<String, String>();
+        properties.put(PropertyNames.MONOTOUCH_PATH, "/Applications/Xamarin Studio.app/Contents/MacOS/mdtool");
+
+        return properties;
     }
 }
