@@ -36,7 +36,7 @@ public class MonotouchRunType extends RunType {
 
     @Override
     public String getEditRunnerParamsJspFilePath() {
-        return null;
+        return "editParams.jsp";
     }
 
     @Override
