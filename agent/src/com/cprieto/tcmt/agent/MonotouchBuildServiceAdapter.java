@@ -9,6 +9,8 @@ public class MonotouchBuildServiceAdapter extends BuildServiceAdapter {
     @NotNull
     @Override
     public ProgramCommandLine makeProgramCommandLine() throws RunBuildException {
-        return null;
+        MonotouchCommandLine cmd = new MonotouchCommandLine(null);
+
+        return createProgramCommandline(cmd.getCommandLine(), cmd.getArgs());
     }
 }
