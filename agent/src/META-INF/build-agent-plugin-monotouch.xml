@@ -9,6 +9,5 @@
                            http://www.springframework.org/schema/lang
                            http://www.springframework.org/schema/lang/spring-lang-2.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"
         default-autowire="constructor">
-    <bean id="monotouchRunnerInfo" class="com.cprieto.tcmt.agent.MonotouchRunnerInfo" />
-    <bean id="monotouchBuildServiceAdapter" class="com.cprieto.tcmt.agent.MonotouchBuildServiceAdapter" />
+    <bean id="monotouchBuildServiceFactory" class="com.cprieto.tcmt.agent.MonotouchBuildServiceFactory" />
 </beans>
